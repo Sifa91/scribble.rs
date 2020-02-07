@@ -4,4 +4,4 @@ ADD . /app/
 WORKDIR /app
 RUN go mod download
 RUN go build -o main .
-CMD ["/app/main", "--portHTTP=80"]
+CMD ["/app/main", "--portHTTP=8080"]
